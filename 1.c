@@ -21,9 +21,11 @@ void div_tri(point a, point b, point c, int m){
 	point v1, v2, v3;
 	int j;
 	if(m>0){
-		for (j=0;j<3;++j)	v1[j]=(a[j]+b[j])/2;
-		for (j=0;j<3;++j)	v2[j]=(a[j]+c[j])/2;
-		for (j=0;j<3;++j)	v3[j]=(c[j]+b[j])/2;
+		for (j=0;j<3;++j){
+			v1[j]=(a[j]+b[j])/2;
+			v2[j]=(a[j]+c[j])/2;
+			v3[j]=(c[j]+b[j])/2;
+		}	
 		div_tri(a, v1, v2, m-1);
 		div_tri(c, v2, v3, m-1);
 		div_tri(b, v3, v1, m-1);
