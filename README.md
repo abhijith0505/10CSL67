@@ -1,4 +1,4 @@
-## Computer Graphics and Visualization Lab (VTU)
+## Computer Graphics and Visualization Lab (VTU 10CSL67)
 
 ### Installing on Linux
 #### On Debian based systems
@@ -28,7 +28,8 @@ You can install the required dependencies using the following commands
     
 ### Compiling and running projects using CMake
    Incase you want to use CMake to compile, run and manage your CG projects then use the following commands.
-   In the CMakeLists.txt file file provided in this repo, add the following lines to the end of the file
+   
+   In the CMakeLists.txt file provided in this repo, add the following lines to the end of the file
    
         add_executable(executableName file.c) //Create an executable for the file.
         target_link_libraries(executableName ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ) // Link the libraries to the executable
@@ -38,7 +39,7 @@ You can install the required dependencies using the following commands
         cd ~/10CSL67
         mkdir build
         
-   Using CMake precompile the rewuired project
+   Using CMake precompile the required project
     
         cd ~/10CSL67/build
         cmake ..
