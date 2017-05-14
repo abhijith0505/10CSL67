@@ -1,6 +1,31 @@
 ## Computer Graphics and Visualization Lab (VTU 10CSL67)
 
-### Installing on Linux
+### PART A
+#### Design, develop, and implement the following programs in C / C++ 
+1. [Program to recursively subdivide a tetrahedron to from 3D Sierpinski gasket. The number of recursive steps is to  be  specified by the user.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/1.c)
+
+2. [Program to implement Liang-Barsky line clipping algorithm.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/2.c)  
+
+3. [Program to draw a color cube and spin it using OpenGL transformation matrices.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/3.c) 
+
+4. [Program to create a house like figure and rotate it about a given fixed point using OpenGL functions.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/4.c)
+
+5. [Program to implement the Cohen-Sutherland line-clipping algorithm.  Make  provision to specify the input line, window for clipping and view port for displaying the clipped image.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/5.c)
+
+6. [Program to create a cylinder and a parallelepiped by extruding  a circle and quadrilateral respectively. Allow the user to specify the circle and the quadrilateral.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/6.c)  
+
+7. Program, using OpenGL functions, to draw a simple shaded scene consisting of a tea pot on a table. Define suitably the  position and properties of the light source along with the properties of the properties of the surfaces of the solid object used in the scene. 
+
+8. [Program to draw a color cube and allow the user to move the camera suitably to experiment with perspective viewing. Use OpenGL functions.](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/8.c) 
+
+9. [Program to fill any given polygon using scan-line area filling algorithm. (Use appropriate data structures.)](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/9.c) 
+
+10. [Program to display a set of values {fij} as a rectangular mesh](https://raw.githubusercontent.com/Akhilsudh/10CSL67/master/10.c)
+
+### PART B
+Develop a suitable Graphics package to implement the skills learnt in the theory and the exercises indicated in PART A. Use the OpenGL. Click [here](https://github.com/Akhilsudh/MineSweeper-CG-Project) to see our developed package/project.
+
+### Installing prerequisites on Linux
 #### On Debian based systems
 You can install the required dependencies using the following commands
 
