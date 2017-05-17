@@ -1,3 +1,9 @@
+/*
+//	Program to implement Liang-Barsky line clipping algorithm.
+*/
+
+
+
 #include<stdio.h>
 #include<GL/glut.h>
 
