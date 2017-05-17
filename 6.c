@@ -1,3 +1,11 @@
+/*
+//	Program to create a cylinder and a parallelepiped 
+//	by extruding a circle and quadrilateral respectively. 
+//	Allow the user to specify the circle and the quadrilateral.
+*/
+
+
+
 #include<GL/glut.h>
 #include<math.h>
 #include<stdio.h>
