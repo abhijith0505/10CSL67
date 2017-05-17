@@ -1,3 +1,11 @@
+/*
+//	Program to draw a color cube and allow the user to move the 
+//	camera suitably to experiment with perspective viewing. 
+//	Use OpenGL functions.
+*/
+
+
+
 #include<stdlib.h>
 #include<GL/glut.h>
 
