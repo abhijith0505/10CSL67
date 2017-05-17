@@ -1,3 +1,9 @@
+/*
+//	Program to draw a color cube and spin it using 
+//	OpenGL transformation matrices.
+*/
+
+
 #include<stdlib.h>
 #include<GL/glut.h>
 
