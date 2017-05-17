@@ -1,3 +1,11 @@
+/*
+//	Program to implement the Cohen-Sutherland line-clipping algorithm. 
+//	Make provision to specify the input line, window for clipping and 
+//	view port for displaying the clipped image.
+*/
+
+
+
 #include<stdio.h>
 #include<GL/glut.h>
 #define outcode int		
