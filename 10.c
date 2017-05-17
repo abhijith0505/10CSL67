@@ -1,4 +1,10 @@
-#include <GL/glut.h>
+/*
+//	Program to display a set of values {fij} as a rectangular mesh
+*/
+
+
+
+#include<GL/glut.h>
 #define maxx 20
 #define maxy 25
 #define dx 15
