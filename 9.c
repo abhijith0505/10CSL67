@@ -1,6 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <GL/glut.h>
+/*
+//	Program to fill any given polygon using scan-line area 
+//	filling algorithm. (Use appropriate data structures.)
+*/
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<GL/glut.h>
 
 float x1,y1,x2,y2,x3,y3,x4,y4;
 
